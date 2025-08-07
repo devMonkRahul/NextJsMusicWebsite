@@ -1,8 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Music School Website
+
+A modern and visually appealing music school website built with Next.js, TypeScript, and Tailwind CSS. This project showcases a range of interactive UI components to create an engaging user experience.
+
+## Features
+
+-   **Modern Tech Stack**: Built with the latest features of Next.js 14 and the App Router.
+-   **Interactive UI**: Leverages Aceternity UI for stunning, animated components like background beams, 3D cards, and infinite moving cards.
+-   **Responsive Design**: Fully responsive layout that looks great on all devices, from desktops to mobile phones.
+-   **Component-Based Architecture**: Clean and maintainable code with a well-organized component structure.
+-   **Static Data**: Course information is managed through a simple JSON file (`src/data/music_courses.json`), making it easy to update content.
+
+## Pages
+
+-   **Home**: A beautiful landing page featuring:
+    -   A hero section with a call-to-action.
+    -   A list of featured courses.
+    -   A "Why Choose Us" section with sticky scrolling.
+    -   Student testimonials in a moving card carousel.
+    -   Upcoming webinars.
+    -   A showcase of instructors with animated tooltips.
+-   **All Courses**: A page displaying all available music courses with 3D card effects.
+-   **Contact Us**: A simple and elegant contact form with animated background beams.
+
+## Tech Stack
+
+-   Next.js - The React Framework for the Web.
+-   React - A JavaScript library for building user interfaces.
+-   TypeScript - Typed JavaScript for robust applications.
+-   Tailwind CSS - A utility-first CSS framework.
+-   Aceternity UI - A collection of copy-paste UI components for React & Next.js.
+-   Framer Motion - For animations.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,8 +51,6 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
